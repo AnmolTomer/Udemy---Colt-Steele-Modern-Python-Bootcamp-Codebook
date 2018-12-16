@@ -1,0 +1,18 @@
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+if y1==y2:
+    yn = (x1,y1+abs(x1-x2))
+    xn = (x2,y2+abs(x1-x2))
+    print(yn)
+    print(xn)
+    ba = (2**0.5)*(abs(x1-x2))
+    print(format(ba,'.2f'))
+else:
+    yn = (x1+abs(y1-y2),y1)
+    xn = (x2+abs(y1-y2),y2)
+    print(yn)
+    print(xn)
+    ba = print(2**0.5)*(abs(y1-y2))
+    print(format(ba,'.2f'))
